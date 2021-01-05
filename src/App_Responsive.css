@@ -1,0 +1,697 @@
+/* Elements rescaled to 70% of desktop size */
+@media only screen and (max-width: 1200px) {
+  /******************* NAV COMPONENT CSS STYLESHEET (RESPONSIVE) *******************/
+
+  .header-container {
+    width: 719px;
+  }
+
+  /******************* HOME COMPONENT CSS STYLESHEET (RESPONSIVE) *******************/
+
+  .home-screen-container {
+    width: 719px;
+    margin-top: 60px;
+  }
+
+  .home-screen-container__ill {
+    width: 407px;
+    height: 309px;
+  }
+
+  .home-screen-text {
+    width: 304px;
+    height: 236px;
+  }
+
+  .home-screen-text h1 {
+    font-size: 46px;
+    line-height: 100%;
+    letter-spacing: -0.032em;
+  }
+
+  .home-screen-text h3 {
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 18px;
+  }
+
+  .scroll-action-container {
+    margin-top: 30px;
+  }
+
+  /******************* SERVICES1 COMPONENT CSS STYLESHEET *******************/
+
+  .services {
+    padding-top: 77px;
+  }
+
+  .urgent-care-needs-container {
+    width: 719px;
+  }
+
+  .urgent-care-needs-container h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .urgent-care-needs-container h2::first-letter {
+    font-size: 56px;
+  }
+
+  .urgent-care-needs {
+    width: 684px;
+    margin-top: 22px;
+  }
+
+  .needs-box {
+    height: 198px;
+  }
+
+  .needs-box-need {
+    width: 199px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  .needs-box-need img {
+    padding-bottom: 5px;
+  }
+
+  .IEMRicon {
+    width: 22px;
+    height: 24px;
+  }
+
+  .ARCMicon {
+    height: 25px;
+    width: 27px;
+  }
+
+  .SPMicon {
+    width: 29px;
+    height: 25px;
+  }
+
+  .BAicon {
+    height: 25px;
+    width: 34px;
+  }
+
+  .THicon {
+    height: 25px;
+    width: 36px;
+  }
+
+  .Phoneicon {
+    height: 28px;
+    width: 18px;
+  }
+
+  .urgent-care-needs__recTop {
+    width: 630px;
+    height: 7px;
+    margin-top: 3px;
+  }
+
+  .urgent-care-needs__recBtm {
+    width: 592px;
+    height: 7px;
+    margin-top: 3px;
+  }
+
+  /******************* SERVICES2 COMPONENT CSS STYLESHEET *******************/
+
+  .jump-start-container {
+    width: 672px;
+  }
+
+  .jump-start-container img {
+    height: 298px;
+    width: 336px;
+  }
+
+  .jump-start-text {
+    width: 308px;
+  }
+
+  .jump-start-text h2 {
+    font-size: 28px;
+  }
+
+  .jump-start-text p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 14px;
+  }
+
+  /******************* EMR & all-like components COMPONENT CSS STYLESHEET *******************/
+
+  .EMR {
+    padding-top: 77px;
+  }
+
+  .EMR-container {
+    width: 719px;
+  }
+
+  .EMR-container h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .EMR-content {
+    width: 719px;
+    margin-top: 30px;
+  }
+
+  .EMRimg {
+    width: 269px;
+    height: 361px;
+  }
+
+  .cards-container {
+    width: 212px;
+  }
+
+  /******************* CARD CSS STYLESHEET *******************/
+
+  .card-container {
+    width: 303px;
+    height: 95px;
+    margin: 5px 0px;
+  }
+
+  .card-container__img {
+    width: 56px;
+    height: 56px;
+
+    margin-left: 11px;
+  }
+
+  .card-container-text {
+    margin-left: 11px;
+    width: 203px;
+  }
+
+  .card-container-text h3 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .card-container-text p {
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+
+  /******************* LETS TALK CSS STYLESHEET *******************/
+
+  .lets-talk-container {
+    height: 362px;
+    margin-top: 82px;
+  }
+
+  .lets-talk-container h2 {
+    font-size: 35px;
+  }
+
+  .lets-talk-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  /******************* Footer CSS STYLESHEET *******************/
+
+  footer {
+    height: 227px;
+  }
+
+  .footer-container {
+    width: 719px;
+    padding-top: 28px;
+  }
+
+  .footer-links {
+    margin: 0px 7px;
+  }
+
+  .footer-links h5 {
+    font-family: "Inter Regular";
+    font-size: 10px;
+    line-height: 8px;
+    margin-bottom: 8px;
+  }
+
+  .footer-links p {
+    font-size: 12px;
+    padding: 1px 0px;
+  }
+
+  /******************* About page CSS STYLESHEET *******************/
+  .about-container {
+    width: 719px;
+    /* height: 396px; */
+    margin: 47px auto 116px auto;
+  }
+
+  .about-content {
+    width: 422px;
+  }
+
+  .about-content h2 {
+    font-size: 52px;
+  }
+
+  .about-content h4 {
+    margin-top: 32px;
+    font-size: 19px;
+    line-height: 21px;
+  }
+
+  .about-content p {
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+
+  .about-container img {
+    width: 332px;
+    height: 287px;
+  }
+
+  /******************* Terms page CSS STYLESHEET *******************/
+  .terms-container {
+    width: 719px;
+  }
+
+  /* overflows the page if i don't do this */
+  .absolute-parent-home {
+    position: absolute;
+    width: 100%;
+    height: 3900px;
+  }
+
+  .absolute-parent-about {
+      height: 700px;
+     
+  }
+
+  .absolute-parent-terms {
+      height: 13000px;
+    
+  }
+}
+
+/* Elements rescaled to 70% of desktop size */
+@media only screen and (max-width: 734px) {
+  /******************* NAV COMPONENT CSS STYLESHEET (RESPONSIVE) *******************/
+
+  .header-container {
+    width: 360px;
+  }
+
+  .header-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-links__btn {
+    width: 77px;
+    height: 28px;
+    color: black;
+    font-size: 11px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    transition: 250ms ease-out;
+    cursor: pointer;
+  }
+
+  .logo-container img {
+    width: 115px;
+    height: 18px;
+  }
+
+  /******************* HOME COMPONENT CSS STYLESHEET (RESPONSIVE) *******************/
+
+  .home-screen-container {
+    width: 360px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .home-screen-container__ill {
+    display: none;
+    width: 407px;
+    height: 309px;
+  }
+
+  .home-screen-text {
+    width: 304px;
+    height: 236px;
+  }
+
+  .home-screen-text h1 {
+    font-size: 46px;
+    line-height: 100%;
+    letter-spacing: -0.032em;
+  }
+
+  .home-screen-text h3 {
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 18px;
+  }
+
+  .scroll-action-container {
+    margin-top: 50px;
+    visibility: hidden;
+  }
+
+  /******************* SERVICES1 COMPONENT CSS STYLESHEET *******************/
+
+  .services {
+    padding-top: 40px;
+  }
+
+  .urgent-care-needs-container {
+    width: 360px;
+  }
+
+  .urgent-care-needs-container h2 {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .urgent-care-needs-container h2::first-letter {
+    font-size: 56px;
+  }
+
+  .urgent-care-needs {
+    width: 300px;
+    margin-top: 22px;
+  }
+
+  .needs-box {
+    height: 570px;
+    flex-direction: column;
+  }
+
+  .needs-box-need {
+    width: 199px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  .needs-box-need img {
+    padding-bottom: 5px;
+  }
+
+  .IEMRicon {
+    width: 22px;
+    height: 24px;
+  }
+
+  .ARCMicon {
+    height: 25px;
+    width: 27px;
+  }
+
+  .SPMicon {
+    width: 29px;
+    height: 25px;
+  }
+
+  .BAicon {
+    height: 25px;
+    width: 34px;
+  }
+
+  .THicon {
+    height: 25px;
+    width: 36px;
+  }
+
+  .Phoneicon {
+    height: 28px;
+    width: 18px;
+  }
+
+  .urgent-care-needs__recTop {
+    width: 230px;
+    height: 7px;
+    margin-top: 3px;
+  }
+
+  .urgent-care-needs__recBtm {
+    width: 210px;
+    height: 7px;
+    margin-top: 3px;
+  }
+
+  /******************* SERVICES2 COMPONENT CSS STYLESHEET *******************/
+
+  .jump-start-container {
+    width: 360px;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .jump-start-container img {
+    height: 298px;
+    width: 336px;
+    padding-top: 20px;
+  }
+
+  .jump-start-text {
+    width: 308px;
+  }
+
+  .jump-start-text h2 {
+    font-size: 28px;
+  }
+
+  .jump-start-text p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 14px;
+  }
+
+  /******************* EMR & all-like components COMPONENT CSS STYLESHEET *******************/
+
+  .EMR {
+    padding-top: 50px;
+  }
+
+  .EMR-container {
+    width: 360px;
+  }
+
+  .EMR-container h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .EMR-content {
+    width: 360px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .EMRimg {
+    width: 269px;
+    height: 361px;
+  }
+
+  .cards-container {
+    width: 212px;
+  }
+
+  /******************* CARD CSS STYLESHEET *******************/
+
+  .card-container {
+    width: 303px;
+    height: 95px;
+    margin: 5px 0px;
+  }
+
+  .card-container__img {
+    width: 56px;
+    height: 56px;
+
+    margin-left: 11px;
+  }
+
+  .card-container-text {
+    margin-left: 11px;
+    width: 203px;
+  }
+
+  .card-container-text h3 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .card-container-text p {
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+
+  /******************* LETS TALK CSS STYLESHEET *******************/
+
+  .lets-talk-container {
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  .lets-talk-container h2 {
+    font-size: 20px;
+  }
+
+  .lets-talk-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  /******************* Footer CSS STYLESHEET *******************/
+
+  footer {
+    height: 227px;
+  }
+
+  .footer-container {
+    width: 360px;
+    padding-top: 28px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links-container {
+    margin-top: 30px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .footer-links {
+    margin: 0px 7px;
+  }
+
+  .footer-links h5 {
+    font-family: "Inter Regular";
+    font-size: 10px;
+    line-height: 8px;
+    margin-bottom: 8px;
+  }
+
+  .footer-links p {
+    font-size: 12px;
+    padding: 1px 0px;
+  }
+
+  .copyright {
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 100px;
+  }
+
+  /******************* About page CSS STYLESHEET *******************/
+  .about-container {
+    width: 360px;
+    /* height: 396px; */
+    margin: 47px auto 115px;
+    flex-direction: column;
+  }
+
+  .about-content {
+    width: 360px;
+  }
+
+  .about-content h2 {
+    font-size: 52px;
+  }
+
+  .about-content h4 {
+    margin-top: 32px;
+    font-size: 19px;
+    line-height: 21px;
+  }
+
+  .about-content p {
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+
+  .about-container img {
+    width: 166px;
+    height: 143px;
+    margin-top: 40px;
+  }
+
+  /******************* Terms page CSS STYLESHEET *******************/
+  .terms-container {
+    width: 360px;
+    font-size: 12px;
+    margin: 50px auto;
+  }
+
+  .terms-container h2 {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+  /******************* Contact US page CSS STYLESHEET *******************/
+  .absolute-parent-home {
+    height: 5360px;
+  }
+
+  .absolute-parent-about {
+    height: 700px;
+   
+  }
+
+  .absolute-parent-terms {
+    height: 14800px;
+  
+  }
+
+  .contact-us-frame {
+    width: 360px;
+    top: 15px;
+    zoom: 0.85;
+  }
+
+  .contact-us-rec1 {
+    width: 347px;
+  }
+
+  .contact-us-rec2 {
+    width: 347px;
+  }
+
+  .contact-us-container {
+    width: 360px;
+  }
+
+  .exit-btn-container {
+    width: 320px;
+  }
+
+  .exit-btn-container__button {
+    cursor: pointer;
+  }
+
+  .contact-us-container h3 {
+    font-size: 12px;
+  }
+}
