@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+.App {
+  height: 100vh;
+}
+
 /* Elements rescaled to 80% of Figma designs */
 /******************* NAV COMPONENT CSS STYLESHEET *******************/
 /*  */
@@ -32,11 +36,12 @@ header {
 }
 
 .logo-container img {
-  width: 9em;
+  /* width: 9em; */
+  width: 11em;
 }
 
 .header-links {
-  width: 230px;
+  width: 260px;
 
   display: flex;
   list-style-type: none;
@@ -49,10 +54,10 @@ header {
 }
 
 .header-links__btn {
-  width: 86px;
-  height: 32px;
+  width: 103px;
+  height: 38px;
   color: black;
-  font-size: 13px;
+  font-size: 16px;
 
   display: flex;
   justify-content: center;
@@ -92,6 +97,8 @@ header {
 .home-screen-container__ill {
   width: 582px;
   height: 440px;
+
+  /* transform: scale(1.3); */
 }
 
 .home-screen-text {
@@ -102,7 +109,7 @@ header {
 }
 
 .home-screen-text h1 {
-  font-family: "Syne Bold";
+  font-family: "Syne Regular";
   font-size: 66px;
   line-height: 100%;
   letter-spacing: -0.032em;
@@ -124,13 +131,13 @@ header {
 }
 
 .home-screen-text__btn {
-  width: 135px;
+  width: 160px;
   height: 48px;
   margin-top: 45px;
   font-family: "Inter Regular";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.3px;
   color: white;
@@ -139,6 +146,7 @@ header {
 
   background: #e9484c;
   border: 2px solid #e9474c;
+  box-shadow: 0px 2px 38px 2px rgba(122, 59, 59, 0.34);
   box-sizing: border-box;
   border-radius: 10px;
 
@@ -146,9 +154,10 @@ header {
   align-items: center;
   justify-content: center;
   transition: 250ms ease-out;
-}.home-screen-text__btn:hover {
-  opacity: .85;
-  border: 2px solid rgba(234, 72, 78, 0.85);
+}
+.home-screen-text__btn:hover {
+  background: #ff4e51;
+  border: 2px solid #ff4e51;
 }
 
 .home-screen-text__btn img,
@@ -186,11 +195,22 @@ header {
 
 /******************* SERVICES COMPONENT CSS STYLESHEET *******************/
 
+.main-home-area {
+  background: linear-gradient(
+    250.78deg,
+    rgba(235, 239, 247, 0.196) 9.4%,
+    rgba(255, 255, 255, 0.329813) 51.43%,
+    rgba(240, 242, 247, 0.4) 98.02%
+  );
+}
+
 .services {
   /* width: 1027px;  */
   /* height: 981px; */
-  padding-top: 111px;
-  padding-bottom: 72px;
+  margin-top: 111px;
+  margin-bottom: 72px;
+  border-top: 1px solid #F2F2F2;
+  padding-top: 67px;
 
   display: flex;
   flex-direction: column;
@@ -248,7 +268,7 @@ header {
   background: #090c4d;
   border: 5px solid #c3c4db;
   box-sizing: border-box;
-  box-shadow: 0px -22px 70px -48px #686a97;
+  box-shadow: 0 0px 70px -10px #686a97;
   border-radius: 40px;
 
   display: flex;
@@ -315,6 +335,8 @@ header {
   height: 11px;
   background: #c3c4db;
   border-radius: 0px 0px 35px 35px;
+  visibility: hidden;
+
 
   margin-top: 5px;
 }
@@ -322,9 +344,9 @@ header {
 .urgent-care-needs__recBtm {
   width: 846px;
   height: 11px;
+  visibility: hidden;
 
   background: #e7e8fb;
-  /* box-shadow: 0px -17px 89px 43px rgba(211, 218, 247, 0.46);  */
   border-radius: 0px 0px 35px 35px;
 
   margin-top: 5px;
@@ -387,6 +409,10 @@ header {
   transition: 250ms ease-out;
 }
 
+.EMR.last {
+  padding-bottom: 100px;
+}
+
 .EMR-container {
   width: 960px;
   /* height: 981px; */
@@ -399,7 +425,7 @@ header {
 .EMR-container h2 {
   font-family: "Syne Regular";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 40px;
   line-height: 40px;
   color: #1a1a1a;
@@ -442,7 +468,7 @@ header {
   margin: 8px 0px;
 
   background: #ffffff;
-  border: 0.5px solid #d9ceff;
+  border: 0.5px solid rgba(217, 206, 255, 0.24);
   box-sizing: border-box;
   border-radius: 15px;
 
@@ -462,7 +488,7 @@ header {
 }
 
 .card-container--PM-color {
-  border: 0.5px solid #ffe7d8 !important;
+  border: 0.5px solid rgba(255, 231, 216, 0.24) !important;
   box-shadow: 0 0px 6.8px rgba(255, 231, 216, 0.034),
     0 0px 16.4px rgba(255, 231, 216, 0.048),
     0 0px 30.8px rgba(255, 231, 216, 0.06),
@@ -471,7 +497,7 @@ header {
     0 0px 246px rgba(255, 231, 216, 0.12);
 }
 .card-container--RCM-color {
-  border: 0.5px solid #cfe6da !important;
+  border: 0.5px solid rgba(207, 230, 218, 0.24) !important;
   box-shadow: 0 0px 6.8px rgba(207, 230, 218, 0.034),
     0 0px 16.4px rgba(207, 230, 218, 0.048),
     0 0px 30.8px rgba(207, 230, 218, 0.06),
@@ -480,7 +506,7 @@ header {
     0 0px 246px rgba(207, 230, 218, 0.12);
 }
 .card-container--PA-color {
-  border: 0.5px solid #fff0cd !important;
+  border: 0.5px solid rgba(255, 240, 205, 0.24) !important;
   box-shadow: 0 0px 6.8px rgba(255, 240, 205, 0.034),
     0 0px 16.4px rgba(255, 240, 205, 0.048),
     0 0px 30.8px rgba(255, 240, 205, 0.06),
@@ -532,7 +558,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 118px;
+  /* margin-top: 118px; */
   transition: 250ms ease-out;
 }
 
@@ -559,13 +585,13 @@ header {
 /******************* Footer CSS STYLESHEET *******************/
 
 footer {
+  position: sticky;
   width: 100%;
   height: 325px;
   left: 0px;
   top: 5766px;
 
   /* Base / Black */
-
   background: #000000;
 }
 
@@ -637,7 +663,8 @@ footer {
 .about-container {
   width: 1027px;
   height: 495px;
-  margin: 59px auto 146px auto;
+  margin: 120px auto 190px auto;
+  /* margin: 59px auto 146px auto; */
 
   display: flex;
   align-items: center;
@@ -652,7 +679,7 @@ footer {
   font-family: "Syne Regular";
   font-style: normal;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 80px;
   line-height: 110%;
   color: #1a1a1a;
 }
@@ -661,7 +688,7 @@ footer {
   margin-top: 40px;
   font-family: "Syne Regular";
   font-style: normal;
-  font-size: 24px;
+  font-size: 31px;
   line-height: 27px;
   color: #1a1a1a;
 }
@@ -713,7 +740,7 @@ footer {
 .absolute-parent-home {
   position: absolute;
   width: 100%;
-  height: 5000px;
+  height: 4854px;
 
   display: flex;
   justify-content: center;
@@ -730,11 +757,10 @@ footer {
   /* box-shadow: inset 0px -1px 400px 1000px rgba(0, 0, 0, .7); */
 }
 
-
 .absolute-parent-about {
   position: absolute;
   width: 100%;
-  height: 900px;
+  height: 820px;
 
   display: flex;
   justify-content: center;
@@ -742,7 +768,8 @@ footer {
   opacity: 0;
   transition: 250ms ease-out;
   transform: translateY(40px);
-}.absolute-parent-about.active {
+}
+.absolute-parent-about.active {
   visibility: visible;
   transform: translateY(0px);
   opacity: 1;
@@ -753,7 +780,7 @@ footer {
 .absolute-parent-terms {
   position: absolute;
   width: 100%;
-  height: 10700px;
+  height: 10539px;
 
   display: flex;
   justify-content: center;
@@ -761,7 +788,8 @@ footer {
   opacity: 0;
   transition: 250ms ease-out;
   transform: translateY(40px);
-}.absolute-parent-terms.active {
+}
+.absolute-parent-terms.active {
   visibility: visible;
   transform: translateY(0px);
   opacity: 1;
@@ -773,7 +801,7 @@ footer {
   position: sticky;
   width: 608px;
   height: 757px;
-  top: 100px;
+  top: 10px;
   left: 0px;
   display: flex;
   flex-direction: column;
@@ -860,7 +888,8 @@ footer {
   border-radius: 16px;
   margin: 10px 0px;
   display: flex;
-}.input-container.error {
+}
+.input-container.error {
   border: 1px solid #e08989;
 }
 
@@ -870,15 +899,15 @@ footer {
 
 .input-container input[type="text"] {
   width: 254px;
-  background: #ffffff;
-  border: 1px solid rgb(255, 255, 255);
-  box-sizing: border-box;
+  background: #fff;
+  /* border: 1px solid #fff; */
+  /* box-sizing: border-box; */
   border-radius: 16px;
-  height: 55px;
-  padding: 0px 14px 0px 0px;
+  border: none;
+  height: 53px;
+  padding: 0 14px 0 0;
   transition: 0.4s;
   outline: none;
-
   font-family: "Inter Regular";
   font-style: normal;
   font-weight: 600;
@@ -886,6 +915,14 @@ footer {
   line-height: 19px;
   letter-spacing: -0.025em;
   color: #292930;
+}
+
+input[type="text"]:-webkit-autofill,
+input[type="text"]:-webkit-autofill:hover,
+input[type="text"]:-webkit-autofill:focus,
+input[type="text"]:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  transition: none;
 }
 
 .radio-btn-container {
@@ -919,7 +956,9 @@ footer {
   border-radius: 30px;
   cursor: pointer;
   transition: 250ms ease-out;
-}.radio-yes.active, .radio-no.active {
+}
+.radio-yes.active,
+.radio-no.active {
   background-color: #f1f1f1;
   border: 1px solid rgba(5, 119, 15, 0.384);
 }
@@ -979,7 +1018,8 @@ footer {
   font-style: normal;
   font-weight: 200;
   color: #ff0033;
-}.error-msg.submitted {
+}
+.error-msg.submitted {
   font-family: "Inter Regular";
   font-style: normal;
   font-weight: 200;

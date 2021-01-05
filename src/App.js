@@ -26,7 +26,7 @@ class App extends Component {
               <Route path="/terms" exact component={Terms} />
             </Switch>
           </ScrollToTop>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     );

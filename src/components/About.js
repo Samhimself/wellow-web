@@ -28,12 +28,12 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav btnHandler={this.toggleContactUs} />
         <ContactUs
           classToAdd={this.state.contactUs}
           classToAddBG={this.state.contactUs}
           btnHandler={this.toggleContactUs}
         />
+        <Nav btnHandler={this.toggleContactUs} />
         <div className="about-container">
           <div className="about-content">
             <h2>About us</h2>
@@ -53,6 +53,7 @@ class About extends Component {
           </div>
           <img src={AboutImg} alt="img about"></img>
         </div>
+        <Footer btnHandler={this.toggleContactUs}/>
       </React.Fragment>
     );
   }

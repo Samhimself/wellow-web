@@ -14,7 +14,7 @@ function PatientApp({classToAdd}) {
 
 
     return (
-        <div className={"EMR "}>
+        <div className={"EMR last"}>
         <div className="EMR-container">
             <h2>Empower patients with our patient app</h2>
             <div className="EMR-content">

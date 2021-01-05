@@ -41,12 +41,15 @@ class Home extends Component {
         />
         <Nav btnHandler={this.toggleContactUs} />
         <HomeScreen btnHandler={this.toggleContactUs} />
-        <Services />
-        <EMR />
-        <PracticeMan />
-        <RCMAnalytics />
-        <PatientApp />
+        <div className="main-home-area">
+          <Services />
+          <EMR />
+          <PracticeMan />
+          <RCMAnalytics />
+          <PatientApp />
+        </div>
         <LetsTalk btnHandler={this.toggleContactUs} />
+        <Footer btnHandler={this.toggleContactUs}/>
       </React.Fragment>
     );
   }

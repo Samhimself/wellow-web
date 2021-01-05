@@ -1,5 +1,5 @@
 import React from "react";
-import HomeScreenIll from "../../images/UrgentCareIllustration.png";
+import HomeScreenIll from "../../images/UrgentCareIllustration.svg";
 import ArrowIcon from "../../images/uil_arrow-to-right.svg";
 import ScrollIcon from "../../images/scroll-horitontal 1.svg";
 

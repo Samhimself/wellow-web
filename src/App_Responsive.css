@@ -42,7 +42,7 @@
   /******************* SERVICES1 COMPONENT CSS STYLESHEET *******************/
 
   .services {
-    padding-top: 77px;
+    margin-top: 77px;
   }
 
   .urgent-care-needs-container {
@@ -152,6 +152,10 @@
     padding-top: 77px;
   }
 
+  .EMR.last {
+    padding-bottom: 82px;
+  }
+
   .EMR-container {
     width: 719px;
   }
@@ -210,7 +214,7 @@
 
   .lets-talk-container {
     height: 362px;
-    margin-top: 82px;
+    /* margin-top: 82px; */
   }
 
   .lets-talk-container h2 {
@@ -294,8 +298,12 @@
     height: 3900px;
   }
 
+  .contact-us-frame {
+    transform: scale(.8) translateY(-50px);
+  }
+
   .absolute-parent-about {
-      height: 700px;
+      height: 800px;
      
   }
 
@@ -377,7 +385,7 @@
   /******************* SERVICES1 COMPONENT CSS STYLESHEET *******************/
 
   .services {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
   .urgent-care-needs-container {
@@ -491,6 +499,10 @@
     padding-top: 50px;
   }
 
+  .EMR.last {
+    padding-bottom: 50px;
+  }
+
   .EMR-container {
     width: 360px;
   }
@@ -550,7 +562,7 @@
 
   .lets-talk-container {
     height: 300px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 
   .lets-talk-container h2 {
@@ -661,14 +673,15 @@
   }
 
   .absolute-parent-terms {
-    height: 14800px;
+    height: 14714px;
   
   }
 
   .contact-us-frame {
     width: 360px;
-    top: 15px;
-    zoom: 0.85;
+    /* top: 15px; */
+    transform: scale(.85) translateY(-50px);
+    top: 0px;
   }
 
   .contact-us-rec1 {

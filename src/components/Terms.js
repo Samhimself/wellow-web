@@ -27,12 +27,12 @@ class Terms extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav btnHandler={this.toggleContactUs} />
         <ContactUs
           classToAdd={this.state.contactUs}
           classToAddBG={this.state.contactUs}
           btnHandler={this.toggleContactUs}
         />
+        <Nav btnHandler={this.toggleContactUs} />
         <div className="terms-container">
           <h2>Privacy &amp; Terms of Use</h2>
           <br></br>
@@ -751,6 +751,7 @@ class Terms extends Component {
             contact@wellow.health
           </p>
         </div>
+        <Footer btnHandler={this.toggleContactUs}/>
       </React.Fragment>
     );
   }

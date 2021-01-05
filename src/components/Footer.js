@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../images/Logo-white.svg";
 import { Link } from "react-router-dom";
 
-function Footer() {
+function Footer({btnHandler}) {
   return (
     <footer>
       <div className="footer-div">
@@ -20,7 +20,7 @@ function Footer() {
             </div>
             <div className="footer-links">
               <h5>Support</h5>
-              <p>Contact Us</p>
+              <p onClick={btnHandler}>Contact Us</p>
             </div>
           </div>
         </div>
