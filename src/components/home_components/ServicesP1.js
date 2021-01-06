@@ -1,5 +1,5 @@
 import React from 'react'
-import IEMRIcon from "../../images/IEMRicon.svg";
+import IEMRIcon from "../../images/IEMRicon.png"; //Can't use this svg because of mobile issues
 import ARCMIcon from "../../images/ARCMicon.svg";
 import PhoneIcon from "../../images/Phoneicon.svg";
 import SPMIcon from "../../images/SPMicon.svg";

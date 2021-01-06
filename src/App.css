@@ -110,7 +110,7 @@ header {
 
 .home-screen-text h1 {
   font-family: "Syne Regular";
-  font-size: 66px;
+  font-size: 80px;
   line-height: 100%;
   letter-spacing: -0.032em;
   color: #1a1a1a;
@@ -662,7 +662,7 @@ footer {
 /******************* About page CSS STYLESHEET *******************/
 .about-container {
   width: 1027px;
-  height: 495px;
+  /* height: 495px; */
   margin: 120px auto 190px auto;
   /* margin: 59px auto 146px auto; */
 
@@ -697,8 +697,8 @@ footer {
   font-family: "Inter Regular";
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 21px;
+  line-height: 30px;
   color: #515151;
   margin-top: 13px;
 }

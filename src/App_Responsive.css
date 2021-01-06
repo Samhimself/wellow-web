@@ -407,7 +407,7 @@
   }
 
   .needs-box {
-    height: 570px;
+    height: 590px;
     flex-direction: column;
   }
 
@@ -420,7 +420,7 @@
   }
 
   .needs-box-need img {
-    padding-bottom: 5px;
+    padding-bottom: 7px;
   }
 
   .IEMRicon {
