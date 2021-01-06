@@ -28,6 +28,7 @@ class ContactUs extends Component {
     this.positionHandler = this.positionHandler.bind(this);
     this.emailHandler = this.emailHandler.bind(this);
     this.messageHandler = this.messageHandler.bind(this);
+    this.submitHandler = this.submitHandler.bind(this);
     this.validateEmail = this.validateEmail.bind(this);
   }
 
@@ -87,13 +88,15 @@ class ContactUs extends Component {
     return result;
   }
 
-  submitHandler() {
+  submitHandler(e) {
+    e.preventDefault();
+
     //validate email entry
     if (this.state.fullName == "") {
       this.setState({
         errorMsg: "Please enter a name",
       });
-      return false;
+      return "false";
     }
 
     //validate position entry
@@ -101,7 +104,7 @@ class ContactUs extends Component {
       this.setState({
         errorMsg: "Please enter a position",
       });
-      return false;
+      return "false";
     }
 
     //validate email entry
@@ -110,7 +113,7 @@ class ContactUs extends Component {
       this.setState({
         errorMsg: "Please enter a valid email",
       });
-      return false;
+      return "false";
     }
 
     //validate radio btn entry
@@ -118,26 +121,11 @@ class ContactUs extends Component {
       this.setState({
         errorMsg: "Please choose Yes or No",
       });
-      return false;
+      return "false";
     }
 
-    // notify user
-    this.setState({
-      errorMsg: "Submitted",
-      submitted: "submitted",
-    });
-
-    setTimeout(() => {
-      this.setState({
-        errorMsg: "",
-        submitted: "",
-      });
-    }, 5000);
-  }
-
-  // send email
-  sendEmail(e) {
-    e.preventDefault();
+    //// FORM VALIDATED 
+    // send email 
     emailjs
       .sendForm("gmail", "gmail_default", e.target, "user_7IJFURCLK8Up98pDoDHNb")
       .then(
@@ -148,13 +136,39 @@ class ContactUs extends Component {
           console.log(error.text);
         }
       );
-      e.target.reset();
+    
+    // Reset UI fields and State fields 
+    e.target.reset();
+    this.setState({
+      fullName: "",
+      position: "",
+      email: "",
+      radioBtn: "",
+      message: "",
+      radioYes: "",
+      radioNo: ""
+    });
+
+    // notify user of successful email submission
+    this.setState({
+      errorMsg: "Submitted",
+      submitted: "submitted",
+    });
+
+    // Reset the remaining fields after notifying user for 5s
+    setTimeout(() => {
+      this.setState({
+        errorMsg: "",
+        submitted: ""
+      });
+    }, 5000);
   }
+
 
   render() {
     return (
       <React.Fragment>
-        <form onSubmit={this.sendEmail}>
+        <form onSubmit={this.submitHandler}>
           <div className={"absolute-parent-home " + this.props.classToAdd}>
             <div className="contact-us-frame">
               <div className="contact-us-rec1"></div>
@@ -239,7 +253,6 @@ class ContactUs extends Component {
                   <button
                     type="submit"
                     className="submit-btn"
-                    onClick={this.submitHandler.bind(this)}
                   >
                     Send now
                   </button>
