@@ -639,6 +639,10 @@ footer {
   cursor: pointer;
 }
 
+.footer-links p:hover {
+  text-decoration: underline;
+}
+
 .footer-div {
   width: fit-content;
   margin: auto;
