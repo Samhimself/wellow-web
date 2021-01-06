@@ -21,6 +21,7 @@ class ContactUs extends Component {
       radioYes: "",
       radioNo: "",
       submitted: "",
+      submitBtn: "",
     };
 
     this.radioHandler = this.radioHandler.bind(this);
@@ -28,6 +29,7 @@ class ContactUs extends Component {
     this.positionHandler = this.positionHandler.bind(this);
     this.emailHandler = this.emailHandler.bind(this);
     this.messageHandler = this.messageHandler.bind(this);
+    this.validateSubmitBtn = this.validateSubmitBtn(this);
     this.submitHandler = this.submitHandler.bind(this);
     this.validateEmail = this.validateEmail.bind(this);
   }
@@ -86,6 +88,13 @@ class ContactUs extends Component {
       });
     }
     return result;
+  }
+
+
+  validateSubmitBtn() {
+    this.setState({
+      submitBtn: "hit"
+    })
   }
 
   submitHandler(e) {
@@ -253,6 +262,7 @@ class ContactUs extends Component {
                   <button
                     type="submit"
                     className="submit-btn"
+                    onClick={this.validateSubmitBtn}
                   >
                     Send now
                   </button>
