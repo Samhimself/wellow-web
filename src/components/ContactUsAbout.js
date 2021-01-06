@@ -258,6 +258,7 @@ class ContactUs extends Component {
                   </button>
                   <button
                     className="cancel-btn"
+                    type="button"
                     onClick={this.props.btnHandler}
                   >
                     Cancel

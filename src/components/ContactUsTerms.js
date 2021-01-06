@@ -169,7 +169,7 @@ class ContactUs extends Component {
     return (
       <React.Fragment>
         <form onSubmit={this.submitHandler}>
-          <div className={"absolute-parent-term " + this.props.classToAdd}>
+          <div className={"absolute-parent-terms " + this.props.classToAdd}>
             <div className="contact-us-frame">
               <div className="contact-us-rec1"></div>
               <div className="contact-us-rec2"></div>
@@ -258,6 +258,7 @@ class ContactUs extends Component {
                   </button>
                   <button
                     className="cancel-btn"
+                    type="button"
                     onClick={this.props.btnHandler}
                   >
                     Cancel
