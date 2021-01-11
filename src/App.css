@@ -5,6 +5,7 @@
 
 .App {
   height: 100vh;
+  zoom: 1.2;
 }
 
 /* Elements rescaled to 80% of Figma designs */
