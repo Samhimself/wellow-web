@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/wellow-web/static/css/main.a085c3c1.chunk.css",
-    "main.js": "/wellow-web/static/js/main.37d2f4f7.chunk.js",
-    "main.js.map": "/wellow-web/static/js/main.37d2f4f7.chunk.js.map",
+    "main.js": "/wellow-web/static/js/main.920167f5.chunk.js",
+    "main.js.map": "/wellow-web/static/js/main.920167f5.chunk.js.map",
     "runtime-main.js": "/wellow-web/static/js/runtime-main.ed0a262b.js",
     "runtime-main.js.map": "/wellow-web/static/js/runtime-main.ed0a262b.js.map",
-    "static/js/2.55904b5d.chunk.js": "/wellow-web/static/js/2.55904b5d.chunk.js",
-    "static/js/2.55904b5d.chunk.js.map": "/wellow-web/static/js/2.55904b5d.chunk.js.map",
+    "static/js/2.5e5d7ad8.chunk.js": "/wellow-web/static/js/2.5e5d7ad8.chunk.js",
+    "static/js/2.5e5d7ad8.chunk.js.map": "/wellow-web/static/js/2.5e5d7ad8.chunk.js.map",
     "static/js/3.3797bdcd.chunk.js": "/wellow-web/static/js/3.3797bdcd.chunk.js",
     "static/js/3.3797bdcd.chunk.js.map": "/wellow-web/static/js/3.3797bdcd.chunk.js.map",
     "index.html": "/wellow-web/index.html",
     "static/css/main.a085c3c1.chunk.css.map": "/wellow-web/static/css/main.a085c3c1.chunk.css.map",
-    "static/js/2.55904b5d.chunk.js.LICENSE.txt": "/wellow-web/static/js/2.55904b5d.chunk.js.LICENSE.txt",
+    "static/js/2.5e5d7ad8.chunk.js.LICENSE.txt": "/wellow-web/static/js/2.5e5d7ad8.chunk.js.LICENSE.txt",
     "static/media/ARCMicon.cdc4cda2.svg": "/wellow-web/static/media/ARCMicon.cdc4cda2.svg",
     "static/media/BAicon.726214eb.svg": "/wellow-web/static/media/BAicon.726214eb.svg",
     "static/media/EMR-img-1.7daa05da.svg": "/wellow-web/static/media/EMR-img-1.7daa05da.svg",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ed0a262b.js",
-    "static/js/2.55904b5d.chunk.js",
+    "static/js/2.5e5d7ad8.chunk.js",
     "static/css/main.a085c3c1.chunk.css",
-    "static/js/main.37d2f4f7.chunk.js"
+    "static/js/main.920167f5.chunk.js"
   ]
 }
