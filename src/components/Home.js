@@ -17,6 +17,7 @@ class Home extends Component {
 
     this.state = {
       contactUs: "",
+      activeClass: "",
     };
 
     this.toggleContactUs = this.toggleContactUs.bind(this);
@@ -31,6 +32,14 @@ class Home extends Component {
     }
   }
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        activeClass: "active"
+      })
+    }, 250);
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -40,16 +49,18 @@ class Home extends Component {
           btnHandler={this.toggleContactUs}
         />
         <Nav btnHandler={this.toggleContactUs} />
-        <HomeScreen btnHandler={this.toggleContactUs} />
-        <div className="main-home-area">
-          <Services />
-          <EMR />
-          <PracticeMan />
-          <RCMAnalytics />
-          <PatientApp />
+        <div className={`home-page ${this.state.activeClass}`}>
+          <HomeScreen btnHandler={this.toggleContactUs} />
+          <div className="main-home-area">
+            <Services />
+            <EMR />
+            <PracticeMan />
+            <RCMAnalytics />
+            <PatientApp />
+          </div>
+          <LetsTalk btnHandler={this.toggleContactUs} />
+          <Footer btnHandler={this.toggleContactUs} />
         </div>
-        <LetsTalk btnHandler={this.toggleContactUs} />
-        <Footer btnHandler={this.toggleContactUs}/>
       </React.Fragment>
     );
   }

@@ -7,6 +7,14 @@
   height: 100vh;
 }
 
+.home-page {
+  opacity: 0;
+  transition: 250ms ease-in;
+}
+.home-page.active {
+  opacity: 1;
+}
+
 /* Elements rescaled to 80% of Figma designs */
 /******************* NAV COMPONENT CSS STYLESHEET *******************/
 /*  */
@@ -209,13 +217,16 @@ header {
   /* height: 981px; */
   margin-top: 111px;
   margin-bottom: 72px;
-  border-top: 1px solid #F2F2F2;
+  padding-bottom: 110px;
+  border-top: 1px solid #f2f2f2;
   padding-top: 67px;
+  background: linear-gradient(180deg, #260866 0%, #150536 100%);
 
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: 250ms ease-out;
+  color: white;
 }
 
 .urgent-care-needs-container {
@@ -265,10 +276,10 @@ header {
   width: 100%;
   height: 283px;
 
-  background: #090c4d;
-  border: 5px solid #c3c4db;
+  /* background: #090c4d; */
+  /* border: 5px solid #c3c4db; */
   box-sizing: border-box;
-  box-shadow: 0 0px 70px -10px #686a97;
+  box-shadow: 0 0px 70px -10px #130531;
   border-radius: 40px;
 
   display: flex;
@@ -337,7 +348,6 @@ header {
   border-radius: 0px 0px 35px 35px;
   visibility: hidden;
 
-
   margin-top: 5px;
 }
 
@@ -357,7 +367,8 @@ header {
 .jump-start-container {
   width: 960px;
   /* height: 442px; */
-  margin-top: 105px;
+  /* margin-top: 105px; */
+  margin-top: 50px;
   /* border: 1px solid black; */
 
   display: flex;
@@ -384,7 +395,7 @@ header {
 
   letter-spacing: -0.025em;
 
-  color: #22009b;
+  color: white;
 }
 
 .jump-start-text p {
@@ -396,7 +407,7 @@ header {
   margin-top: 20px;
   letter-spacing: -0.025em;
 
-  color: #000000;
+  color: white;
 }
 
 /******************* EMR & all-like components COMPONENT CSS STYLESHEET *******************/
@@ -485,6 +496,7 @@ header {
 
 .card-container:hover {
   transform: translateY(-7px);
+  /* border: 1px solid #431AD3; */
 }
 
 .card-container--PM-color {
@@ -899,6 +911,7 @@ footer {
 
 .input-container img {
   padding: 0px 14px 0px;
+  width: 24px;
 }
 
 .input-container input[type="text"] {

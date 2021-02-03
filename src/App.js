@@ -8,8 +8,8 @@ import About from "./components/About";
 import Terms from "./components/Terms";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { HashRouter as Router, Switch, Route  } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//import { HashRouter as Router, Switch, Route  } from 'react-router-dom'
 import ScrollToTop from "./components/ScrollToTop";
 
 class App extends Component {
